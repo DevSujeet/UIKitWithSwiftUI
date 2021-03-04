@@ -16,6 +16,7 @@
 		BA7113A725DCA9FD006EFDAD /* UIKitToSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7113A625DCA9FD006EFDAD /* UIKitToSwiftUITests.swift */; };
 		BA7113B225DCA9FD006EFDAD /* UIKitToSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7113B125DCA9FD006EFDAD /* UIKitToSwiftUIUITests.swift */; };
 		BA7113C725DCABEA006EFDAD /* HostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7113C625DCABEA006EFDAD /* HostingView.swift */; };
+		BACC7E8C25F09FAC00FAA7D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BACC7E8B25F09FAC00FAA7D9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BA7113B125DCA9FD006EFDAD /* UIKitToSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitToSwiftUIUITests.swift; sourceTree = "<group>"; };
 		BA7113B325DCA9FD006EFDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA7113C625DCABEA006EFDAD /* HostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingView.swift; sourceTree = "<group>"; };
+		BACC7E8B25F09FAC00FAA7D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		BA71138325DCA9FC006EFDAD = {
 			isa = PBXGroup;
 			children = (
+				BACC7E8B25F09FAC00FAA7D9 /* README.md */,
 				BA7113C225DCAB91006EFDAD /* SwiftUI */,
 				BA71138E25DCA9FC006EFDAD /* UIKitToSwiftUI */,
 				BA7113A525DCA9FD006EFDAD /* UIKitToSwiftUITests */,
@@ -244,6 +247,7 @@
 			files = (
 				BA71139C25DCA9FD006EFDAD /* LaunchScreen.storyboard in Resources */,
 				BA71139925DCA9FD006EFDAD /* Assets.xcassets in Resources */,
+				BACC7E8C25F09FAC00FAA7D9 /* README.md in Resources */,
 				BA71139725DCA9FC006EFDAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
