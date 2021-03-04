@@ -15,6 +15,7 @@
 		BA71139C25DCA9FD006EFDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA71139A25DCA9FD006EFDAD /* LaunchScreen.storyboard */; };
 		BA7113A725DCA9FD006EFDAD /* UIKitToSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7113A625DCA9FD006EFDAD /* UIKitToSwiftUITests.swift */; };
 		BA7113B225DCA9FD006EFDAD /* UIKitToSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7113B125DCA9FD006EFDAD /* UIKitToSwiftUIUITests.swift */; };
+		BA7113C725DCABEA006EFDAD /* HostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7113C625DCABEA006EFDAD /* HostingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA7113AD25DCA9FD006EFDAD /* UIKitToSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitToSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7113B125DCA9FD006EFDAD /* UIKitToSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitToSwiftUIUITests.swift; sourceTree = "<group>"; };
 		BA7113B325DCA9FD006EFDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7113C625DCABEA006EFDAD /* HostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		BA71138325DCA9FC006EFDAD = {
 			isa = PBXGroup;
 			children = (
+				BA7113C225DCAB91006EFDAD /* SwiftUI */,
 				BA71138E25DCA9FC006EFDAD /* UIKitToSwiftUI */,
 				BA7113A525DCA9FD006EFDAD /* UIKitToSwiftUITests */,
 				BA7113B025DCA9FD006EFDAD /* UIKitToSwiftUIUITests */,
@@ -126,6 +129,14 @@
 				BA7113B325DCA9FD006EFDAD /* Info.plist */,
 			);
 			path = UIKitToSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		BA7113C225DCAB91006EFDAD /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BA7113C625DCABEA006EFDAD /* HostingView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				BA71139425DCA9FC006EFDAD /* ViewController.swift in Sources */,
 				BA71139025DCA9FC006EFDAD /* AppDelegate.swift in Sources */,
 				BA71139225DCA9FC006EFDAD /* SceneDelegate.swift in Sources */,
+				BA7113C725DCABEA006EFDAD /* HostingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
